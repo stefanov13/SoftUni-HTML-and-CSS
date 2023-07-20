@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="">
+        <div>
+            <label for="f-name">First Name: </label>
+            <input type="text" name="first_name" id="f-name">
+        </div>
+        <br>
+        <div>
+            <label for="pass">Password: </label>
+            <input type="password" name="password" id="pass">
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone Number: </label>
+            <input id="phone" type="tel" name="phone" required>
+        </div>
+        <br>
+        <div>
+            <label for="mail">E-mail: </label>
+            <input id="mail" type="email" name="mail" >
+        </div>
+        <h2>Gender</h2>
+        <div>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="gender" value="MALE">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="gender" value="FEMALE">
+        </div>
+        <h3>Get Notification by:</h3>
+        <div>
+            <label for="phone">By Phone</label>
+            <input id="phone" type="checkbox" name="notification" value="PHONE">
+            <label for="mail">By E-mail</label>
+            <input id="mail" type="checkbox" name="notification" value="EMAIL">
+        </div>
+        <h3>Select your Date of Birth</h3>
+        <div>
+            <label for="birthday">Date of Birth</label>
+            <input id="birthday" type="date" name="birthday">
+        </div>
+        <br>
+        <div>
+            <label for="msg">Comment:</label>
+            <textarea name="comment" id="msg" cols="30" rows="10"></textarea>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
