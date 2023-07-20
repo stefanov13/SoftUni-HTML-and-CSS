@@ -1,0 +1,51 @@
+html {
+    margin: 50px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h5 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left: 3px solid rgb(221,221,221);
+    font-style: italic;
+    text-indent: 23px;
+}
+
+p.author {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding-left: 5px;
+    border: 1px solid silver;
+}
+
+table thead {
+    text-align: left;
+    background-color: silver;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #E5E4E2;
+}
+
+ul {
+    list-style: square;
+}
+
+ul ul {
+    list-style: disc;
+}
+
+ul ul ul {
+    list-style: circle;
+}
