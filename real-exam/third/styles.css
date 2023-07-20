@@ -1,0 +1,137 @@
+* {
+    font-family: 'Poppins';
+
+}
+header {
+    position: relative;
+    display: flex;
+    background: url("images/landing-photo.jpg") no-repeat center center; 
+    background-size: cover;
+  
+    width: 100%;
+    height: 500px;
+}
+
+nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 50%;
+}
+
+nav > h2 {
+    width: 50%;
+}
+
+nav > a {
+    margin: 0 20px;
+
+    font: bold 11px Arial;
+    text-decoration: none;
+    color: #333333;
+}
+
+nav > a:hover {
+    background-color: #720a0a;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.container-info  {
+    position: absolute;
+    top: 40%;
+    left: 26%;
+}
+
+.container-info > h1, .grid-header > h1 {
+    line-height: 50%;
+
+}
+
+.container-info > p {
+    line-height: 50%;
+    font-size: 12px;
+}
+
+.container-info > button {
+    margin-top: 20px;
+    background-color: #720a0a;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.grid-header {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.grid-header > p {
+    font-size: 12px;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.grid > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 300px;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.grid > div > img {
+    width: 300px;
+    height: 200px;
+}
+
+.grid > div > p {
+    padding: 0 20px;
+}
+
+.grid > div > button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 50px 200px;
+    align-items: center;
+    width: 900px;
+}
+
+footer > * {
+    color: white;
+}
+
+.fa {
+    margin-left: 10px;
+    
+}
+
+
