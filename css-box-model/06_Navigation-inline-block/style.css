@@ -1,0 +1,32 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    display: inline-block;
+    width: 250px;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+li {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav * {
+    list-style-type: none;
+    padding-right: 10px;
+    font-size: 12px;
+    color: 	mediumseagreen;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
