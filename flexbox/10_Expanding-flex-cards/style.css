@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+ul {
+    display: flex;
+    gap: 10px
+}
+
+li {
+    width: 6vw;
+    height: 40vh;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+li:hover {
+    width: 28vw;
+}

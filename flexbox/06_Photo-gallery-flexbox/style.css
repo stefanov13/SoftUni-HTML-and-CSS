@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+ul,
+li {
+    display: flex;
+}
+
+body {
+    background-color: lightgray;
+    justify-content: center;
+}
+
+ul {
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 20px 0px;
+}
+
+ul {
+    max-width: 56vw;
+    max-height: 160vh;
+    flex-wrap: wrap;
+}
+
+li {
+    max-height: 50vh;
+    border: 6px solid black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 8px;
+}
