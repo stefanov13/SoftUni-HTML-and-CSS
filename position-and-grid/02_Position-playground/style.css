@@ -1,0 +1,50 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+
+.viewport {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    height: 660px;
+}
+
+.card {
+    display: block;
+    position: absolute;
+    left: 720px;
+}
+
+.first {
+    background-image: linear-gradient(to right, #3F75A3 , #A4CDA5);
+}
+
+.second {
+    background-image: linear-gradient(to right, #C14F76 , #E49E35);
+}
+
+.one {
+    top: 160px;
+}
+
+.two  {
+    top: 30px;
+}
+
+img {
+    display: block;
+    width: 80%;
+}
+
+.fas {
+    color: #fff;
+    position: absolute;
+}
+
+.fa-link {
+    top: 244px;
+    left: 376px;
+}
+
+.fa-star {
+    top: 578px;
+    left: 376px;
+}

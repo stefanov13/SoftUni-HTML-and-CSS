@@ -1,0 +1,91 @@
+.title-navigation {
+    display: block;
+    border-bottom: 2px solid black;
+    line-height: 0px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-navigation p {
+    display: inline-block;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.navigation-top {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    margin-bottom: 30px;
+    color: green;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-right: 16px;
+    font-size: 12px;
+}
+
+main {
+    display: inline-block;
+    width: 70%;
+    margin-right: 60px;
+}
+
+aside {
+    position: absolute;
+    display: inline-block;
+    width: 25%;
+    top: 50px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: green;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    width: 50%;
+    border-left: 3px solid lightgrey;
+    padding-left: 20px;
+    float: right;
+}
+
+main article section {
+    position: relative;
+}
+
+blockquote p {
+    font-family: Georgia, serif;
+}
+
+blockquote .author {
+    display: block;
+    padding-left: 70%;
+}
+
+.second-img {
+    float: right;
+}
+
+.first-img {
+    float: left;
+    margin-right: 12px;
+}
+
+body {
+    position: relative;
+    margin: 40px 100px;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}

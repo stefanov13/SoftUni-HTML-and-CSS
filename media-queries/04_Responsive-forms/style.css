@@ -1,0 +1,163 @@
+/* 
+field-bg - #f8f8f8
+input-field-border - #c5c5c5
+
+
+*/
+
+/* @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css); */
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.heading {
+    display: inline-block;
+    position: relative;
+    top: 54px;
+    left: 16px;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    padding: 4px 0px 0px 16px;
+    vertical-align: middle;
+}
+
+fieldset {
+    border: none;
+}
+
+.form {
+    margin: 40px auto;
+    padding: 30px;
+    width: 380px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fas {
+    letter-spacing: 0.1rem;
+    padding-left: 10px;
+    color: black;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    flex-basis: 30px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 4px 12px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 412px) {
+    .heading {
+        left: 16px;
+    }
+
+    .form {
+        width: 380px;
+    }
+    
+}
+
+@media screen and (min-width: 820px) {
+    .heading {
+        left: 184px;
+    }
+
+    .form {
+        width: 450px;
+    }
+    
+}
+
+@media screen and (min-width: 1600px) {
+    .heading {
+        left: 574px;
+    }
+
+    .form {
+        width: 450px;
+        height: 200px;
+    }
+
+    .field {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .fas {
+        top: 10px;
+        left: 94px;
+    }
+
+    input {
+        height: 36px;
+        margin-left: 8px;
+        flex-basis: 80vw;
+    }
+    
+}
+
+@media screen and (min-width: 1920px) {
+    .heading {
+        left: 735px;
+    }
+
+    .form {
+        width: 450px;
+        height: 200px;
+    }
+
+    .field {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+
+    .fas {
+        top: 10px;
+        left: 94px;
+    }
+
+    input {
+        margin-left: 8px;
+        flex-basis: 80vw;
+        height: 36px;
+    }
+    
+}
